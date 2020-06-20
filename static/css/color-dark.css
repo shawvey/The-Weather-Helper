@@ -1,0 +1,77 @@
+.header{
+    background-color: #98B6CA;
+}
+
+.login-wrap{
+        position:absolute;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        background-image:url("/static/img/bg.png"); 
+        background-position: center 0;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size: cover;
+        -webkit-background-size: cover;/* 兼容Webkit内核浏览器如Chrome和Safari */
+        -o-background-size: cover;/* 兼容Opera */
+        zoom: 1; 
+}
+.plugins-tips{
+    background: #eef1f6;
+}
+.plugins-tips a{
+    color: #20a0ff;
+}
+.el-upload--text em {
+    color: #20a0ff;
+}
+.pure-button{
+    background: #20a0ff;
+}
+    @font-face {
+		font-family: avenir;
+		font-weight: bold;
+		src: url('/fonts/AvenirNext-DemiBold.ttf');
+	}
+
+	@font-face {
+		font-family: avenir;
+		font-weight: normal;
+		src: url('/fonts/AvenirNext-Regular.ttf');
+	}
+
+	@font-face {
+		font-family: avenir;
+		font-weight: 500;
+		src: url('/fonts/AvenirNext-Medium.ttf');
+	}
+
+	html {
+		background-color: #FBF9EB;
+		font-family: avenir;
+	}
+
+	button {
+		font-family: inherit;
+		color: inherit;
+	}
+
+	input {
+		font-family: inherit;
+		font-weight: 500;
+	}
+
+	body {
+		margin: 0;
+        padding: 0;
+	}
+
+	.text-color-main {
+		color: #7DA5BF;
+	}
+
+	#app {
+		width: 100%;
+		height: 100%;
+	}
